@@ -1,0 +1,141 @@
+$date
+	Sat Aug 29 10:21:49 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question3_tb $end
+$var wire 1 ! f $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 4 $ C [3:0] $end
+$var reg 4 % D [3:0] $end
+$var reg 4 & S [3:0] $end
+$scope module uut $end
+$var wire 4 ' A [3:0] $end
+$var wire 4 ( B [3:0] $end
+$var wire 4 ) C [3:0] $end
+$var wire 4 * D [3:0] $end
+$var wire 4 + S [3:0] $end
+$var wire 1 , w3 $end
+$var wire 1 - w2 $end
+$var wire 1 . w1 $end
+$var wire 1 / w0 $end
+$var wire 1 ! f $end
+$scope module m0 $end
+$var wire 1 0 A $end
+$var wire 1 1 B $end
+$var wire 1 2 C $end
+$var wire 1 3 D $end
+$var wire 2 4 S [1:0] $end
+$var wire 1 / f $end
+$upscope $end
+$scope module m1 $end
+$var wire 1 5 A $end
+$var wire 1 6 B $end
+$var wire 1 7 C $end
+$var wire 1 8 D $end
+$var wire 2 9 S [1:0] $end
+$var wire 1 . f $end
+$upscope $end
+$scope module m2 $end
+$var wire 1 : A $end
+$var wire 1 ; B $end
+$var wire 1 < C $end
+$var wire 1 = D $end
+$var wire 2 > S [1:0] $end
+$var wire 1 - f $end
+$upscope $end
+$scope module m3 $end
+$var wire 1 ? A $end
+$var wire 1 @ B $end
+$var wire 1 A C $end
+$var wire 1 B D $end
+$var wire 2 C S [1:0] $end
+$var wire 1 , f $end
+$upscope $end
+$scope module m_final $end
+$var wire 1 / A $end
+$var wire 1 . B $end
+$var wire 1 - C $end
+$var wire 1 , D $end
+$var wire 2 D S [1:0] $end
+$var wire 1 ! f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 D
+b0 C
+0B
+0A
+0@
+0?
+b0 >
+1=
+1<
+1;
+1:
+b0 9
+08
+07
+16
+15
+b0 4
+03
+12
+01
+10
+0/
+0.
+1-
+0,
+b0 +
+b0 *
+b1111 )
+b1100 (
+b1010 '
+b0 &
+b0 %
+b1111 $
+b1100 #
+b1010 "
+0!
+$end
+#20
+1/
+1.
+b11 4
+b11 9
+b11 >
+b11 C
+b11 &
+b11 +
+#40
+1!
+0/
+0.
+b0 4
+b0 9
+b0 >
+b0 C
+b1 D
+b100 &
+b100 +
+#60
+1/
+1.
+1!
+b11 4
+b11 9
+b11 >
+b11 C
+b11 D
+b1111 &
+b1111 +
+#80

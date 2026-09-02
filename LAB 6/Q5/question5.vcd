@@ -1,0 +1,66 @@
+$date
+	Wed Sep  2 10:07:59 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question5_tb $end
+$var wire 1 ! valid $end
+$var wire 4 " Y [3:0] $end
+$var reg 16 # D [15:0] $end
+$scope module uut $end
+$var wire 16 $ D [15:0] $end
+$var reg 4 % Y [3:0] $end
+$var reg 1 ! valid $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111111111111111111111111111 &
+b0 %
+b1 $
+b1 #
+b0 "
+1!
+$end
+#20
+b1 "
+b1 %
+b11111111111111111111111111111111 &
+1!
+b10 #
+b10 $
+#40
+b11111111111111111111111111111111 &
+1!
+b111 "
+b111 %
+b10000000 #
+b10000000 $
+#60
+b11111111111111111111111111111111 &
+1!
+b1111 "
+b1111 %
+b1000000000000000 #
+b1000000000000000 $
+#80
+b11111111111111111111111111111111 &
+1!
+b100 "
+b100 %
+b1111000011110000 #
+b1111000011110000 $
+#100
+b11111111111111111111111111111111 &
+0!
+b0 "
+b0 %
+b0 #
+b0 $
+#120
