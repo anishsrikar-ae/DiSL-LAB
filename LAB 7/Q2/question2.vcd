@@ -1,0 +1,83 @@
+$date
+	Sat Sep 12 09:31:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question2_tb $end
+$scope module q2 $end
+$var reg 1 ! clk $end
+$var reg 1 " q $end
+$var reg 1 # reset_n $end
+$var reg 1 $ t $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+1#
+0"
+0!
+$end
+#5
+1!
+#10
+0!
+0#
+#15
+1!
+#20
+0!
+#25
+1!
+1#
+#30
+0!
+#35
+1!
+1$
+#40
+1"
+0!
+#45
+1!
+#50
+0!
+0$
+#55
+1!
+#60
+0"
+0!
+1$
+#65
+1!
+#70
+1"
+0!
+#75
+1!
+#80
+0"
+0!
+0#
+#85
+1!
+#90
+1"
+0!
+1#
+#95
+1!
+#100
+0"
+0!
+#105
+1!
+#110
+1"
+0!
