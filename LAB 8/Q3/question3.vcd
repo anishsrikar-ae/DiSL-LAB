@@ -1,0 +1,63 @@
+$date
+	Sat Oct  3 10:17:22 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question3_tb $end
+$var wire 5 ! Q [4:0] $end
+$var reg 1 " CLK $end
+$var reg 1 # reset $end
+$scope module q3 $end
+$var wire 1 " CLK $end
+$var wire 1 # reset $end
+$var reg 5 $ Q [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+1#
+0"
+b0 !
+$end
+#20
+1"
+#40
+0"
+#45
+0#
+#60
+b1 !
+b1 $
+1"
+#80
+0"
+#100
+b11 !
+b11 $
+1"
+#120
+0"
+#140
+b111 !
+b111 $
+1"
+#145
+b0 !
+b0 $
+1#
+#160
+0"
+#165
+0#
+#180
+b1 !
+b1 $
+1"
+#200
+0"

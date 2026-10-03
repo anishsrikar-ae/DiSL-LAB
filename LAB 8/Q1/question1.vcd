@@ -1,0 +1,108 @@
+$date
+	Sat Oct  3 10:25:24 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question1_tb $end
+$var wire 6 ! Q [5:0] $end
+$var reg 1 " CLK $end
+$var reg 6 # D [5:0] $end
+$scope module q1 $end
+$var wire 1 " CLK $end
+$var wire 6 $ D [5:0] $end
+$var wire 6 % Q [5:0] $end
+$scope module r1 $end
+$var wire 1 " CLK $end
+$var wire 1 & D $end
+$var reg 1 ' Q $end
+$upscope $end
+$scope module r2 $end
+$var wire 1 " CLK $end
+$var wire 1 ( D $end
+$var reg 1 ) Q $end
+$upscope $end
+$scope module r3 $end
+$var wire 1 " CLK $end
+$var wire 1 * D $end
+$var reg 1 + Q $end
+$upscope $end
+$scope module r4 $end
+$var wire 1 " CLK $end
+$var wire 1 , D $end
+$var reg 1 - Q $end
+$upscope $end
+$scope module r5 $end
+$var wire 1 " CLK $end
+$var wire 1 . D $end
+$var reg 1 / Q $end
+$upscope $end
+$scope module r6 $end
+$var wire 1 " CLK $end
+$var wire 1 0 D $end
+$var reg 1 1 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x1
+10
+x/
+0.
+x-
+1,
+x+
+0*
+x)
+1(
+x'
+0&
+bx %
+b101010 $
+b101010 #
+0"
+bx !
+$end
+#20
+0'
+1)
+0+
+1-
+0/
+b101010 !
+b101010 %
+11
+0,
+1.
+00
+b10010 #
+b10010 $
+1"
+#40
+0"
+#60
+01
+1/
+b10010 !
+b10010 %
+0-
+1"
+#80
+0"
+#100
+1"
+#120
+0"
+#140
+1"
+#160
+0"
+#180
+1"
+#200
+0"
