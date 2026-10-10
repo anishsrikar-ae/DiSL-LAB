@@ -1,0 +1,106 @@
+$date
+	Sat Oct 10 09:14:11 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question2_tb $end
+$var wire 2 ! Q [1:0] $end
+$var reg 1 " CLK $end
+$var reg 1 # x $end
+$scope module q2 $end
+$var wire 1 " CLK $end
+$var wire 1 $ T0 $end
+$var wire 1 % T1 $end
+$var wire 1 # x $end
+$var wire 1 & Q1 $end
+$var wire 1 ' Q0 $end
+$var wire 2 ( Q [1:0] $end
+$scope module ff_0 $end
+$var wire 1 " CLK $end
+$var wire 1 $ T $end
+$var reg 1 ' Q $end
+$upscope $end
+$scope module ff_1 $end
+$var wire 1 " CLK $end
+$var wire 1 % T $end
+$var reg 1 & Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+0'
+0&
+0%
+1$
+0#
+0"
+b0 !
+$end
+#20
+0$
+1%
+b1 !
+b1 (
+1'
+1"
+#40
+0"
+#60
+0%
+b11 !
+b11 (
+1&
+0$
+1"
+1#
+#80
+0"
+#100
+1"
+#120
+0"
+#140
+1$
+1%
+1"
+0#
+#160
+0"
+#180
+0%
+0&
+b0 !
+b0 (
+0'
+1"
+#200
+0"
+#220
+1%
+b1 !
+b1 (
+1'
+1$
+1"
+1#
+#240
+0"
+#260
+0$
+0%
+1&
+b10 !
+b10 (
+0'
+1"
+#280
+0"
+#300
+1"

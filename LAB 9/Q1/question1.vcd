@@ -1,0 +1,122 @@
+$date
+	Sat Oct 10 09:13:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module question1_tb $end
+$var wire 2 ! Q [1:0] $end
+$var reg 1 " CLK $end
+$var reg 1 # E $end
+$var reg 1 $ x $end
+$scope module q1 $end
+$var wire 1 " CLK $end
+$var wire 1 # E $end
+$var wire 1 % JB $end
+$var wire 1 & KB $end
+$var wire 1 $ x $end
+$var wire 2 ' Q [1:0] $end
+$var wire 1 ( KA $end
+$var wire 1 ) JA $end
+$var wire 1 * B $end
+$var wire 1 + A $end
+$scope module ff_a $end
+$var wire 1 " CLK $end
+$var wire 1 ) J $end
+$var wire 1 ( K $end
+$var reg 1 + Q $end
+$upscope $end
+$scope module ff_b $end
+$var wire 1 " CLK $end
+$var wire 1 % J $end
+$var wire 1 & K $end
+$var reg 1 * Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0+
+0*
+0)
+0(
+b0 '
+0&
+0%
+0$
+0#
+0"
+b0 !
+$end
+#20
+1"
+#40
+0)
+0(
+0"
+1$
+1%
+1&
+1#
+#60
+1(
+1)
+b1 !
+b1 '
+1*
+1"
+#80
+0"
+#100
+0(
+0)
+1+
+b10 !
+b10 '
+0*
+1"
+#120
+0"
+#140
+b11 !
+b11 '
+1*
+0)
+0(
+1"
+0$
+#160
+0"
+#180
+1(
+1)
+b10 !
+b10 '
+0*
+1"
+#200
+0"
+#220
+0(
+0)
+1*
+b1 !
+b1 '
+0+
+1"
+#240
+0"
+1$
+0%
+0&
+0#
+#260
+1"
+#280
+0"
+#300
+1"
